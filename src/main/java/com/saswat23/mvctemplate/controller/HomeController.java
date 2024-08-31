@@ -9,7 +9,7 @@ public class HomeController {
 	@RequestMapping({"/","/home"})
 	public String getHome() {
 		System.out.println("Inside getHome() of HomeController ...");
-		return "home.jsp";
+		return "home";
 	}
 	
 }
